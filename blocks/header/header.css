@@ -1,4 +1,10 @@
 .header {
-    width: 1184px;
-    height: 52px;
+    position: relative;
+    max-width: 1184px;
+    max-height: 52px;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    align-items: center;
+    margin: 28px auto 0 auto;
 }

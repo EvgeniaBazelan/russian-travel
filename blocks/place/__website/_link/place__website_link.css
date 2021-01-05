@@ -1,0 +1,15 @@
+.place__website_link {
+    max-width: 456px;
+    max-height: 22px;
+    font-family: Inter;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 22px;
+    text-decoration-line: underline;
+    color: #FFFFFF;
+    text-align: left;
+    padding-top: 26px;
+    /* padding-bottom: 106px; */
+    margin: 0;
+}
