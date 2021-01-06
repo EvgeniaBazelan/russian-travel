@@ -1,4 +1,6 @@
 .place__paragraph {
+    display: flex;
+    flex-direction: column;
     max-width: 484px;
     max-height: 145px;
     font-family: Inter;
@@ -7,5 +9,7 @@
     font-size: 18px;
     line-height: 163%;
     color: #FFFFFF;
-    margin-top: 48px;
+    grid-row: 3/4;
+    grid-column: 2;
+    margin: 0;
 }

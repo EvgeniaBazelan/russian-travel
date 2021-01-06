@@ -1,4 +1,4 @@
 .place__paragraph_area_top {
-    grid-area: paragraph-top;
-    margin: 0;
+    grid-row: 3;
+    grid-column: 2;
 }
