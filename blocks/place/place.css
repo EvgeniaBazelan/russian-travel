@@ -1,6 +1,6 @@
 .place {
     display: grid;
-    grid-template-areas: "title website" "image paragraph-top" "image paragraph-bottom";
+    grid-template-areas: "title website" "image paragraph";
     max-width: 984px;
     max-height: 660px;
     margin-top: 80px;
