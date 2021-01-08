@@ -4,6 +4,8 @@
     grid-area: image;
     margin-top: 48px;
     margin-right: 40px;
+    -o-object-fit: cover;
     object-fit: cover;
+    -o-object-position: center;
     object-position: center;
 }
