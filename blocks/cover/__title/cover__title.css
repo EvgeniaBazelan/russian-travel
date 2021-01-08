@@ -1,5 +1,5 @@
-.place__title {
-    max-width: 460px;
+.cover__title {
+    max-width: 560px;
     max-height: 152px;
     font-family: Inter;
     font-style: normal;
@@ -7,7 +7,6 @@
     font-size: 72px;
     line-height: 76px;
     /* or 106% */
+    text-align: center;
     color: #FFFFFF;
-    grid-area: title;
-    margin: 0;
 }
