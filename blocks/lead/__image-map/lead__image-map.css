@@ -1,4 +1,6 @@
 .lead__image-map {
     max-width: 937.09px;
     max-height: 262.99px;
+    object-fit: cover;
+    object-position: center;
 }

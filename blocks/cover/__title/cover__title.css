@@ -9,4 +9,7 @@
     /* or 106% */
     text-align: center;
     color: #FFFFFF;
+    margin: 0 auto;
+    z-index: 2;
+    position: relative;
 }
