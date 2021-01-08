@@ -13,3 +13,7 @@
     /* padding-bottom: 106px; */
     margin: 0;
 }
+
+.place__website_link:hover {
+    opacity: 0.8;
+}
