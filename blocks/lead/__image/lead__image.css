@@ -12,3 +12,9 @@
         height: 580px;
     }
 }
+
+@media all and (max-width:1023px) {
+    .lead__image {
+        height: 480px;
+    }
+}

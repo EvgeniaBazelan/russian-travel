@@ -43,3 +43,14 @@
         gap: 14px;
     }
 }
+
+@media all and (max-width:1023px) {
+    .photo-grid {
+        -ms-grid-columns: (minmax(-webkit-min-content, -webkit-max-content))[2];
+        -ms-grid-columns: (minmax(min-content, max-content))[2];
+        grid-template-columns: repeat(2, minmax(-webkit-min-content, -webkit-max-content));
+        grid-template-columns: repeat(2, minmax(min-content, max-content));
+        gap: 16px;
+        max-width: 720px;
+    }
+}
