@@ -1,7 +1,6 @@
 .header {
     position: relative;
     max-width: 1184px;
-    max-height: 52px;
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
@@ -15,6 +14,6 @@
     -webkit-box-align: center;
     -ms-flex-align: center;
     align-items: center;
-    margin: 0 auto;
+    margin: 0 48px;
     padding-top: 28px;
 }

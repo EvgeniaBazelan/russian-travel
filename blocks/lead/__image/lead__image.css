@@ -6,3 +6,9 @@
     height: 615px;
     margin: 0 auto;
 }
+
+@media all and (max-width:1279px) {
+    .lead__image {
+        height: 580px;
+    }
+}

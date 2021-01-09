@@ -1,6 +1,5 @@
 .photo-grid {
     max-width: 1184px;
-    max-height: 671px;
     display: -ms-grid;
     display: grid;
     -ms-grid-columns: minmax(-webkit-min-content, -webkit-max-content) 18px minmax(-webkit-min-content, -webkit-max-content) 18px minmax(-webkit-min-content, -webkit-max-content) 18px minmax(-webkit-min-content, -webkit-max-content);
@@ -32,4 +31,15 @@
 .photo-grid>*:nth-child(4) {
     -ms-grid-row: 1;
     -ms-grid-column: 7;
+}
+
+@media all and (max-width:1279px) {
+    .photo-grid {
+        max-width: 928px;
+        -ms-grid-columns: (minmax(-webkit-min-content, -webkit-max-content))[3];
+        -ms-grid-columns: (minmax(min-content, max-content))[3];
+        grid-template-columns: repeat(3, minmax(-webkit-min-content, -webkit-max-content));
+        grid-template-columns: repeat(3, minmax(min-content, max-content));
+        gap: 14px;
+    }
 }

@@ -1,6 +1,5 @@
 .footer {
     max-width: 1184px;
-    max-height: 18px;
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
@@ -11,5 +10,5 @@
     -webkit-box-pack: justify;
     -ms-flex-pack: justify;
     justify-content: space-between;
-    margin: 92px auto 24px auto;
+    margin: 92px 48px 24px 48px;
 }

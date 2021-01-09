@@ -26,3 +26,9 @@
     background-image: -o-linear-gradient( rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8)), url(../../../images/cover-train.jpg);
     background-image: linear-gradient( rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8)), url(../../../images/cover-train.jpg);
 }
+
+@media all and (max-width:1279px) {
+    .cover__overlay {
+        height: 640px;
+    }
+}
