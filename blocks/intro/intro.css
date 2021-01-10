@@ -9,3 +9,10 @@
         margin: 92px auto 92px auto;
     }
 }
+
+@media all and (max-width:767px) {
+    .intro {
+        max-width: 288px;
+        margin: 64px auto 64px auto;
+    }
+}

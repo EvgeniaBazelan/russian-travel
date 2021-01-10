@@ -18,3 +18,11 @@
         margin: 88px auto 0 auto;
     }
 }
+
+@media all and (max-width:767px) {
+    .place {
+        max-width: 320px;
+        margin: 50px auto 0 auto;
+        grid-template-areas: "title" "website" "image" "paragraph";
+    }
+}

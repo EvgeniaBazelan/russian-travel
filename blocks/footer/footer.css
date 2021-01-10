@@ -12,3 +12,12 @@
     justify-content: space-between;
     margin: 92px 48px 24px 48px;
 }
+
+@media all and (max-width:767px) {
+    .footer {
+        max-width: 186px;
+        flex-direction: column;
+        justify-content: left;
+        margin: 64px 148px 24px 16px;
+    }
+}

@@ -15,3 +15,10 @@
         max-height: 340px;
     }
 }
+
+@media all and (max-width:767px) {
+    .place__image {
+        max-height: 320px;
+        margin: 0;
+    }
+}
