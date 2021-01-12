@@ -11,8 +11,6 @@
     grid-auto-rows: auto;
     gap: 18px;
     margin: 0 auto 0 auto;
-    display: flex;
-    flex-wrap: wrap;
 }
 
 .photo-grid>*:nth-child(1) {
@@ -38,8 +36,8 @@
 @media all and (max-width:1279px) {
     .photo-grid {
         max-width: 928px;
-        -ms-grid-columns: (minmax(-webkit-min-content, -webkit-max-content))[3];
-        -ms-grid-columns: (minmax(min-content, max-content))[3];
+        -ms-grid-columns: minmax(-webkit-min-content, -webkit-max-content) 14px minmax(-webkit-min-content, -webkit-max-content) 14px minmax(-webkit-min-content, -webkit-max-content);
+        -ms-grid-columns: minmax(min-content, max-content) 14px minmax(min-content, max-content) 14px minmax(min-content, max-content);
         grid-template-columns: repeat(3, minmax(-webkit-min-content, -webkit-max-content));
         grid-template-columns: repeat(3, minmax(min-content, max-content));
         gap: 14px;
@@ -48,8 +46,8 @@
 
 @media all and (max-width:1023px) {
     .photo-grid {
-        -ms-grid-columns: (minmax(-webkit-min-content, -webkit-max-content))[2];
-        -ms-grid-columns: (minmax(min-content, max-content))[2];
+        -ms-grid-columns: minmax(-webkit-min-content, -webkit-max-content) 16px minmax(-webkit-min-content, -webkit-max-content);
+        -ms-grid-columns: minmax(min-content, max-content) 16px minmax(min-content, max-content);
         grid-template-columns: repeat(2, minmax(-webkit-min-content, -webkit-max-content));
         grid-template-columns: repeat(2, minmax(min-content, max-content));
         gap: 16px;
@@ -59,8 +57,8 @@
 
 @media all and (max-width:767px) {
     .photo-grid {
-        -ms-grid-columns: (minmax(-webkit-min-content, -webkit-max-content))[1];
-        -ms-grid-columns: (minmax(min-content, max-content))[1];
+        -ms-grid-columns: minmax(-webkit-min-content, -webkit-max-content);
+        -ms-grid-columns: minmax(min-content, max-content);
         grid-template-columns: minmax(-webkit-min-content, -webkit-max-content);
         grid-template-columns: minmax(min-content, max-content);
         gap: 12px;
