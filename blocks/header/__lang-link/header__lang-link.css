@@ -8,6 +8,7 @@
     line-height: 28px;
     /* identical to box height, or 117% */
     text-align: right;
+    -webkit-text-decoration-line: none;
     text-decoration-line: none;
     color: #FFFFFF;
     margin: 0;
@@ -15,4 +16,14 @@
 
 .header__lang-link:first-of-type {
     margin-right: 18px;
+    text-decoration: underline;
+}
+
+@media all and (max-width:767px) {
+    .header__lang-link {
+        max-width: 22px;
+        max-height: 20px;
+        font-size: 18px;
+        line-height: 20px;
+    }
 }

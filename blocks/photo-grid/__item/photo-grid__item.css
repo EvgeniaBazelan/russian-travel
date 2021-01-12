@@ -1,4 +1,7 @@
-            .photo-grid__item {
-                max-width: 284px;
-                max-height: 213px;
-            }
+.photo-grid__item {
+    max-width: 100%;
+    -o-object-position: center;
+    object-position: center;
+    -o-object-fit: cover;
+    object-fit: cover;
+}

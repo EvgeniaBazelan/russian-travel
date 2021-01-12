@@ -1,6 +1,6 @@
 .place__website_url-heading {
     max-width: 456px;
-    max-height: 12px;
+    text-decoration: none;
     font-family: Inter;
     font-style: normal;
     font-weight: normal;
@@ -9,7 +9,6 @@
     letter-spacing: 0.2em;
     color: #AAAAAA;
     text-align: left;
-    padding-top: 80px;
     margin: 0;
     grid-row: 1;
     grid-column: 2;

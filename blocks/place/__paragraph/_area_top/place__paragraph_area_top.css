@@ -1,4 +1,9 @@
 .place__paragraph_area_top {
-    grid-row: 3;
-    grid-column: 2;
+    margin: 0;
+}
+
+@media all and (max-width:767px) {
+    .place__paragraph_area_top {
+        margin-top: 32px;
+    }
 }
