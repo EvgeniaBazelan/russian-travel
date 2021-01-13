@@ -1,22 +1,22 @@
 .header__lang-link {
     max-width: 30px;
-    max-height: 28px;
     font-family: Inter;
     font-style: normal;
     font-weight: normal;
     font-size: 24px;
     line-height: 28px;
-    /* identical to box height, or 117% */
     text-align: right;
-    -webkit-text-decoration-line: none;
-    text-decoration-line: none;
     color: #FFFFFF;
+    text-decoration: none;
     margin: 0;
+    display: flex;
+    flex-direction: row;
+    list-style-type: none;
+    padding: 0;
 }
 
 .header__lang-link:first-of-type {
     margin-right: 18px;
-    text-decoration: underline;
 }
 
 @media all and (max-width:767px) {
