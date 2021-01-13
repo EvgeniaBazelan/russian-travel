@@ -26,7 +26,7 @@
 @import url(../blocks/place/__image/place__image.css);
 @import url(../blocks/image/image.css);
 @import url(../blocks/place/__website/place__website.css);
-@import url(../blocks/place/__website/_url-heading/place__website_url-heading.css);
+@import url(../blocks/place/__website/_url/place__website_url.css);
 @import url(../blocks/place/__website/_link/place__website_link.css);
 @import url(../blocks/place/__paragraph/place__paragraph.css);
 @import url(../blocks/place/__paragraph/_area_top/place__paragraph_area_top.css);
