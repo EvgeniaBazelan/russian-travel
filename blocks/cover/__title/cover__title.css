@@ -8,9 +8,9 @@
     /* or 106% */
     text-align: center;
     color: #FFFFFF;
-    margin: 0 auto;
     z-index: 2;
     position: relative;
+    margin: 0;
 }
 
 @media all and (max-width:767px) {
