@@ -19,10 +19,13 @@
     margin-right: 18px;
 }
 
+.header__lang-link:hover {
+    opacity: 0.8;
+}
+
 @media all and (max-width:767px) {
     .header__lang-link {
         max-width: 62px;
-        max-height: 20px;
         font-size: 18px;
         line-height: 20px;
     }
