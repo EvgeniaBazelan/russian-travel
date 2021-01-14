@@ -1,11 +1,10 @@
 .cover {
     max-width: 1184px;
-    min-height: 740px;
     margin: 92px auto 0 auto;
-    position: relative;
+    /position: relative;
     background-image: -webkit-gradient( linear, left top, left bottom, from(rgba(0, 0, 0, 0.3)), to(rgba(0, 0, 0, 0.3))), url(../../images/cover-train.jpg);
-    background-image: -o-linear-gradient( rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url(../../images/cover-train.jpg;
- background-image: linear-gradient( rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url(../../images/cover-train.jpg);
+    background-image: -o-linear-gradient( rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url(../../images/cover-train.jpg);
+    background-image: linear-gradient( rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url(../../images/cover-train.jpg);
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
@@ -23,27 +22,8 @@
     background-position: center;
 }
 
-.cover:hover {
-    background-image: -webkit-gradient( linear, left top, left bottom, from(rgba(0, 0, 0, 0.8)), to(rgba(0, 0, 0, 0.8))), url(../../../images/cover-train.jpg);
-    background-image: -o-linear-gradient( rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8)), url(../../../images/cover-train.jpg);
-    background-image: linear-gradient( rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8)), url(../../../images/cover-train.jpg);
-}
-
-@media all and (max-width:1279px) {
-    .cover {
-        min-height: 640px;
-    }
-}
-
-@media all and (max-width:1023px) {
-    .cover {
-        min-height: 480px;
-    }
-}
-
 @media all and (max-width:767px) {
     .cover {
-        min-height: 200px;
         max-width: 320px;
         margin: o auto;
     }

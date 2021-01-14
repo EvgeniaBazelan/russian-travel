@@ -1,6 +1,5 @@
-.place__website_link {
+.place__link {
     max-width: 456px;
-    font-family: Inter;
     font-style: normal;
     font-weight: normal;
     font-size: 18px;
@@ -16,6 +15,6 @@
     grid-column: 2;
 }
 
-.place__website_link:hover {
+.place__link:hover {
     opacity: 0.8;
 }
