@@ -10,7 +10,7 @@
                 }
                 
                 .cover__link:hover {
-                    background-image: -webkit-gradient( linear, left top, left bottom, from(rgba(0, 0, 0, 0.8)), to(rgba(0, 0, 0, 0.8)))
+                    background-image: -webkit-gradient( linear, left top, left bottom, from(rgba(0, 0, 0, 0.8)), to(rgba(0, 0, 0, 0.8)));
                 }
                 
                 @media all and (max-width:1279px) {
