@@ -7,6 +7,7 @@
     letter-spacing: 0.15em;
     text-transform: uppercase;
     color: #FFFFFF;
+    padding-left: 30px;
 }
 
 @media all and (max-width:1023px) {

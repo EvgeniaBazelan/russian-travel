@@ -2,13 +2,14 @@
     object-fit: cover;
     max-width: 100%;
     height: 615px;
-    margin: 56px auto 0 auto;
+    margin: 64px auto 0 auto;
     object-position: center;
 }
 
 @media all and (max-width:1279px) {
     .lead__image {
         height: 580px;
+        margin: 56px 48px 0 28px;
     }
 }
 

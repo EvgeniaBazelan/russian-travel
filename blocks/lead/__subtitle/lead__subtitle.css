@@ -7,7 +7,7 @@
     /* or 120% */
     text-align: center;
     color: #FFFFFF;
-    margin: 32px auto 64px auto;
+    margin: 32px auto 0 auto;
 }
 
 @media all and (max-width:767px) {
