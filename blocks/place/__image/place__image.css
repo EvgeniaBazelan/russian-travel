@@ -13,6 +13,7 @@
 @media all and (max-width:927px) {
     .place__image {
         max-height: 340px;
+        margin-right: 28px;
     }
 }
 
