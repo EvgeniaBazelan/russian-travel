@@ -7,25 +7,26 @@
                     justify-content: center;
                     text-decoration: none;
                     min-height: 740px;
+                    transition: .5s ease-in-out;
                 }
-                
+
                 .cover__link:hover {
                     background-image: -webkit-gradient( linear, left top, left bottom, from(rgba(0, 0, 0, 0.8)), to(rgba(0, 0, 0, 0.8)));
                 }
-                
-                @media all and (max-width:1279px) {
+
+                @media all and (max-width:1075px) {
                     .cover__link {
                         min-height: 640px;
                     }
                 }
-                
-                @media all and (max-width:1023px) {
+
+                @media all and (max-width:927px) {
                     .cover__link {
                         min-height: 480px;
                     }
                 }
-                
-                @media all and (max-width:767px) {
+
+                @media all and (max-width:742px) {
                     .cover__link {
                         min-height: 200px;
                     }

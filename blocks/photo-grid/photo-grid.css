@@ -33,7 +33,7 @@
     -ms-grid-column: 7;
 }
 
-@media all and (max-width:1279px) {
+@media all and (max-width:1075px) {
     .photo-grid {
         max-width: 928px;
         -ms-grid-columns: minmax(-webkit-min-content, -webkit-max-content) 14px minmax(-webkit-min-content, -webkit-max-content) 14px minmax(-webkit-min-content, -webkit-max-content);
@@ -44,7 +44,7 @@
     }
 }
 
-@media all and (max-width:1023px) {
+@media all and (max-width:927px) {
     .photo-grid {
         -ms-grid-columns: minmax(-webkit-min-content, -webkit-max-content) 16px minmax(-webkit-min-content, -webkit-max-content);
         -ms-grid-columns: minmax(min-content, max-content) 16px minmax(min-content, max-content);
@@ -55,7 +55,7 @@
     }
 }
 
-@media all and (max-width:767px) {
+@media all and (max-width:742px) {
     .photo-grid {
         -ms-grid-columns: minmax(-webkit-min-content, -webkit-max-content);
         -ms-grid-columns: minmax(min-content, max-content);

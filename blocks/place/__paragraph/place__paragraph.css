@@ -10,14 +10,14 @@
                     -ms-flex-direction: column;
                     flex-direction: column;
                 }
-                
-                @media all and (max-width:1023px) {
+
+                @media all and (max-width:927px) {
                     .place__paragraph {
                         max-width: 352px;
                     }
                 }
-                
-                @media all and (max-width:767px) {
+
+                @media all and (max-width:742px) {
                     .place__paragraph {
                         max-width: 288px;
                         margin-left: 16px;

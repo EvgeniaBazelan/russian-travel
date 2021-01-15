@@ -6,20 +6,20 @@
     margin-top: 80px;
 }
 
-@media all and (max-width:1279px) {
+@media all and (max-width:1075px) {
     .place {
         max-width: 928px;
     }
 }
 
-@media all and (max-width:1023px) {
+@media all and (max-width:927px) {
     .place {
         max-width: 720px;
         margin: 88px auto 0 auto;
     }
 }
 
-@media all and (max-width:767px) {
+@media all and (max-width:742px) {
     .place {
         max-width: 320px;
         margin: 50px auto 0 auto;

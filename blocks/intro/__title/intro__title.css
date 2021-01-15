@@ -10,7 +10,7 @@
     margin: 0;
 }
 
-@media all and (max-width:767px) {
+@media all and (max-width:742px) {
     .intro__title {
         width: 288px;
         font-size: 32px;

@@ -10,7 +10,7 @@
     margin: 0;
 }
 
-@media all and (max-width:767px) {
+@media all and (max-width:742px) {
     .footer__copyright {
         line-height: 14px;
         margin-top: 16px;

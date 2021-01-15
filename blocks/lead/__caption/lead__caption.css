@@ -10,13 +10,13 @@
     padding-left: 30px;
 }
 
-@media all and (max-width:1023px) {
+@media all and (max-width:927px) {
     .lead__caption {
         padding-left: 24px;
     }
 }
 
-@media all and (max-width:767px) {
+@media all and (max-width:742px) {
     .lead__caption {
         padding-left: 16px;
     }
