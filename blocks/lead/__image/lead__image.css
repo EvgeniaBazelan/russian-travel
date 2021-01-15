@@ -1,9 +1,9 @@
 .lead__image {
     object-fit: cover;
-    object-fit: center;
     max-width: 100%;
     height: 615px;
-    margin: 0 auto;
+    margin: 56px auto 0 auto;
+    object-position: center;
 }
 
 @media all and (max-width:1279px) {
