@@ -4,12 +4,13 @@
     height: 615px;
     margin: 64px auto 0 auto;
     object-position: center;
+    display: block;
 }
 
 @media all and (max-width:1279px) {
     .lead__image {
         height: 580px;
-        margin: 56px 48px 0 28px;
+        margin: 56px auto 0 auto;
     }
 }
 
