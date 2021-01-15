@@ -13,6 +13,12 @@
     margin: 92px 48px 24px 48px;
 }
 
+@media all and (max-width:1075px) {
+    .footer {
+        max-width: 928px;
+    }
+}
+
 @media all and (max-width:927px) {
     .footer {
         max-width: 720px;

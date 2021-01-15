@@ -3,6 +3,12 @@
     margin: 92px auto 92px auto;
 }
 
+@media all and (max-width:1075px) {
+    .intro {
+        max-width: 928px;
+    }
+}
+
 @media all and (max-width:927px) {
     .intro {
         max-width: 720px;

@@ -7,17 +7,25 @@
     letter-spacing: 0.15em;
     text-transform: uppercase;
     color: #FFFFFF;
-    padding-left: 30px;
+    max-width: 984px;
+}
+
+@media all and (max-width:1075px) {
+    .lead__caption {
+        max-width: 928px;
+    }
 }
 
 @media all and (max-width:927px) {
     .lead__caption {
-        padding-left: 24px;
+        max-width: 768px;
+        margin-left: 24px;
     }
 }
 
 @media all and (max-width:742px) {
     .lead__caption {
-        padding-left: 16px;
+        max-width: 320px;
+        margin-left: 16px;
     }
 }
