@@ -1,7 +1,7 @@
 .cover {
     max-width: 1184px;
     margin: 92px auto 0 auto;
-    /position: relative;
+    position: relative;
     background-image: -webkit-gradient( linear, left top, left bottom, from(rgba(0, 0, 0, 0.3)), to(rgba(0, 0, 0, 0.3))), url(../../images/cover-train.jpg);
     background-image: -o-linear-gradient( rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url(../../images/cover-train.jpg);
     background-image: linear-gradient( rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url(../../images/cover-train.jpg);
